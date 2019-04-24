@@ -15,9 +15,8 @@ public class Block extends GameObject {
 	@Override
 	public void draw(Graphics g) {
 		g.setColor(c);
-		//System.out.println("Drawing myself: "+this);
+		System.out.println("Drawing myself: "+this);
 		g.fillRect(getX(), getY(), getW(), getH());
-
 	}
 
 }
