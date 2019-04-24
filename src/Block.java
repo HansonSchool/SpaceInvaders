@@ -17,6 +17,7 @@ public class Block extends GameObject {
 		g.setColor(c);
 		//System.out.println("Drawing myself: "+this);
 		g.fillRect(getX(), getY(), getW(), getH());
+
 	}
 
 }
